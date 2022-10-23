@@ -1,0 +1,1305 @@
+@font-face {
+    font-family: 'admiration_pains_regular';
+    src: url('../fonts/admiration_pains-webfont.eot');
+    src: url('../fonts/admiration_pains-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/admiration_pains-webfont.woff2') format('woff2'),
+         url('../fonts/admiration_pains-webfont.woff') format('woff'),
+         url('../fonts/admiration_pains-webfont.ttf') format('truetype'),
+         url('../fonts/admiration_pains-webfont.svg#admiration_pains_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LatoWeb';
+    src: url('../fonts/Lato-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Lato-Regular.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/Lato-Regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/Lato-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'ComicSansMS';
+  src: url('../fonts/ComicSansMS.eot?#iefix') format('embedded-opentype'),  
+  url('../fonts/ComicSansMS.woff') format('woff'), 
+  url('../fonts/ComicSansMS.ttf')  format('truetype'), 
+  url('../fonts/ComicSansMS.svg#ComicSansMS') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BebasNeueBold';
+  src: url('../fonts/BebasNeueBold.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'architects_daughterregular';
+    src: url('../fonts/architectsdaughter-webfont.eot');
+    src: url('../fonts/architectsdaughter-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/architectsdaughter-webfont.woff2') format('woff2'),
+         url('../fonts/architectsdaughter-webfont.woff') format('woff'),
+         url('../fonts/architectsdaughter-webfont.ttf') format('truetype'),
+         url('../fonts/architectsdaughter-webfont.svg#architects_daughterregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot');
+	src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.svg#icomoon') format('svg'),
+		url('../fonts/icomoon.woff') format('woff'),
+		url('../fonts/icomoon.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'neoretrodrawregular';
+    src: url('../fonts/neord___-webfont.eot');
+    src: url('../fonts/neord___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/neord___-webfont.woff2') format('woff2'),
+         url('../fonts/neord___-webfont.woff') format('woff'),
+         url('../fonts/neord___-webfont.ttf') format('truetype'),
+         url('../fonts/neord___-webfont.svg#neoretrodrawregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'englebertregular';
+    src: url('../fonts/englebert-regular-webfont.eot');
+    src: url('../fonts/englebert-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/englebert-regular-webfont.woff2') format('woff2'),
+         url('../fonts/englebert-regular-webfont.woff') format('woff'),
+         url('../fonts/englebert-regular-webfont.ttf') format('truetype'),
+         url('../fonts/englebert-regular-webfont.svg#englebertregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+root { 
+    display: block;
+}
+*{
+    margin: 0px auto;
+    padding: 0px;
+}
+:focus{
+    outline: 0;
+}
+a{
+	color: rgb(0,114,191);
+	font-family: 'Arial';
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover,a:focus,a:active{
+	text-decoration: none;
+	color: rgb(0,114,191);
+}
+body,html {
+	height: 100%;
+}
+body {
+    background-image: url('../images/landingBg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.wrapper{
+	width: 100%;
+	float: left;
+	height: 100%;
+}
+.topcontrol{
+	position: fixed; 
+	bottom: 5px; 
+	right: 5px; 
+	opacity: 0.6; 
+	cursor: pointer;
+}
+.topcontrol:hover{
+	opacity: 1; 
+	bottom: 20px;
+}
+.container, .row{
+    height: 100%;
+}
+
+/* Landing Page Section Starts Here */
+.landingPageOuter{
+	float: left;
+	width: 100%;
+	height: 100%;
+    display: table;
+}
+.landingPageInner{
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+.landingRows{
+	margin: 0px auto;
+    display: table;    
+	width: 721px;
+	margin-bottom: 10px;
+}
+.landingCommonBlock{
+	float: left;
+	width: 230px;
+	height: 200px;
+	margin-right: 10px;
+}
+.landingCommonBlock h1{
+	text-align: center;
+    line-height: normal;
+    color: #FFFFFF;
+    font-size: 48px;
+    font-family: BebasNeueBold, sans-serif;
+    font-weight: 400;
+	margin: 0;
+}
+.landingCommonBlock h4{
+	text-align: center;
+    line-height: normal;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: BebasNeueBold, sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+.landingCommonBlock .back h4{
+	padding: 0 20px;
+}
+.landingCommonBlock p{
+	text-align: center;
+    line-height: normal;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: LatoWeb, sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+.landingBlockInner{
+	display: table;
+	height: 200px;
+	width: 100%;
+}
+.landingBlock1 .landingBlockInner{
+	display: table;
+	height: 250px;
+}
+.landingBlockInner .landingMiddleDiv{
+	display: table-cell;
+	vertical-align: middle;
+}
+.landingBlock1 .landingMiddleDiv{
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-o-animation-delay: 1s;
+	animation-delay: 1s;
+}
+.landingBlock1{
+	background-color: rgba(0, 113, 188, 0.22);
+	height: 280px;
+}
+.landingBlock2 .front{
+	background-color: rgba(241, 90, 36, 0.22);
+	margin-top: 80px;
+}
+.landingBlock2 .back{
+	background-color: rgba(241, 90, 36, 0.9);
+	margin-top: 80px;
+}
+.landingBlock3 .front{
+	background-color: rgba(34, 181, 115, 0.22);
+	margin-top: 80px;
+}
+.landingBlock3 .back{
+	background-color: rgba(34, 181, 115, 0.9);
+	margin-top: 80px;
+}
+.landingBlock4 .front{
+	background-color: rgba(252, 238, 33, 0.22);
+	float: right;
+}
+.landingBlock4 .back{
+	background-color: rgba(252, 238, 33, 0.9);
+	float: right;
+}
+.landingBlock5 .front{
+	background-color: rgba(226, 30, 121, 0.22);	
+	float: right;
+}
+.landingBlock5 .back{
+	background-color: rgba(226, 30, 121, 0.9);	
+	float: right;
+}
+/* Landing Page Section Ends Here */
+
+
+/* Header Section Starts Here */
+.logo {
+  -ms-flex-flow: row;
+  flex-flow: row;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  cursor: hand;
+  cursor: pointer;
+  padding: 2px;
+  z-index: 5;
+  color: #f15a24;
+  font-weight: 700;
+  font-size: 45px;
+  font-family: architects_daughterregular, sans-serif;
+  letter-spacing: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transition: all 175ms ease-out;
+}
+.diffColor{
+    color: #333;
+}
+.logo span:nth-child(9) {
+    opacity: 1;
+}
+.logo span:nth-child(odd):not(:first-child) {
+    opacity: 0;
+    pointer-events: none;
+    transition: all 350ms ease-out;
+    transform: translate(0, -15px); 
+}
+.logo span:nth-child(even):not(:first-child) {
+    opacity: 0;
+    pointer-events: none;
+    transition: all 350ms ease-out;
+    transform: translate(0, 15px); 
+}
+
+.logo:hover span:not(:first-child) {
+  opacity: 1;
+  transform: translate(0, 0%); 
+}
+.logo:hover span:nth-child(2) {
+  transition-delay: calc( 1 * 25ms); 
+}
+.logo:hover span:nth-child(3) {
+  transition-delay: calc( 2 * 25ms); 
+}
+.logo:hover span:nth-child(4) {
+  transition-delay: calc( 3 * 25ms); 
+}
+.logo:hover span:nth-child(5) {
+  transition-delay: calc( 4 * 25ms); 
+}
+.logo:hover span:nth-child(6) {
+  transition-delay: calc( 5 * 25ms); 
+}
+.logo:hover span:nth-child(7) {
+  transition-delay: calc( 6 * 25ms); 
+}
+.logo:hover span:nth-child(8) {
+  transition-delay: calc( 7 * 25ms);
+}
+.logo span:nth-child(9) {
+  opacity: 1;
+  transform: translate(-601%, 0%)!important;
+}
+.logo:hover span:nth-child(9) {
+  transition-delay: calc( 8 * 25ms); 
+  transform: translate(0%, 0%)!important;
+}
+.logo:hover span:nth-child(10) {
+  transition-delay: calc( 9 * 25ms); 
+}  
+.logo:hover span:nth-child(11) {
+  transition-delay: calc( 10 * 25ms); 
+}  
+.logo:hover span:nth-child(12) {
+  transition-delay: calc( 11 * 25ms); 
+}  
+.logo:hover span:nth-child(13) {
+  transition-delay: calc( 12 * 25ms); 
+}
+.logo:hover span:nth-child(14) {
+  transition-delay: calc( 13 * 25ms); 
+}
+
+.headerOuter{
+	float: left;
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	padding: 20px 0;
+	border-bottom: 3px solid #F15A24;
+	z-index: 9999;
+	box-shadow: 0px 0px 18px #000;
+}
+.navigationOuter{
+    position: fixed;
+    top: calc((100% - 120px)/2);
+    right: 10px;
+    z-index: 99999;
+}
+.navigationOuter .navbar-nav>li {
+    float: none;
+    padding: 15px 10px;
+}
+.navigationOuter .navbar-nav>li:first-child {
+    padding-top: 0;
+}
+.navigationOuter .navbar-nav>li>a {
+    background-color: #da5950;
+    width: 10px;
+    height: 10px;
+    float: left;
+    border-radius: 51px;
+    line-height: normal;
+    padding: 0;
+}
+.navigationOuter .navbar-nav>li.active>a,
+.navigationOuter .navbar-nav>li>a:hover,
+.navigationOuter .navbar-nav>li>a:focus {
+    background-color: #da5950;
+    width: 10px;
+    height: 10px;
+    float: left;
+    border-radius: 51px;
+    border: 2px solid #fff;
+    line-height: normal;
+    padding: 0;
+}
+/* Header Section Ends Here 
+
+
+/* Title Section Starts Here */
+.titleBlockOuter{
+	float: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.animate-up {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translate(0, 100px);
+    -moz-transform: translate(0, 100px);
+    transform: translate(0, 100px);
+}
+.animated {
+    opacity: 1;
+    visibility: visible;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    transform: translate(0, 0);
+    -webkit-transition: -webkit-transform 400ms ease-out 100ms, opacity 400ms ease-out 100ms;
+    -moz-transition: -moz-transform 400ms ease-out 100ms, opacity 400ms ease-out 100ms;
+    transition: transform 400ms ease-out 100ms, opacity 400ms ease-out 100ms;
+}
+/* Title Section Ends Here */
+
+
+/* About Page Starts Here */
+.aboutPage{
+	height: 100%;
+	width: 100%;
+    float: left;
+    display: table;
+}
+.aboutPageInner{
+    height: auto;
+	float: left;
+    width: 100%;
+}
+.blockWrap{
+    height: auto;
+	float: left;
+	background-color: rgba(0,0,0,0.6);
+	padding-top: 30px;
+    padding-bottom: 30px;
+	-webkit-animation-duration: 3s;
+	-moz-animation-duration: 3s;
+	-o-animation-duration: 3s;
+	animation-duration: 3s;
+}
+.progImg{
+	float: left;
+	margin-top: 20px;
+	width: 100%;
+}
+.progImg h4{
+	text-align: center;
+	font-family: 'architects_daughterregular', Arial;
+    font-size: 45px;
+	margin-top: 20px;
+    color: #fff;
+	font-weight: normal;
+	width: 100%;
+}
+.aboutTxt{
+	float: none;
+    width: 65%;
+    height: 100%;
+    padding-top: 35px;
+    margin: 0px auto;
+}
+.aboutTxt p{
+	text-align: justify;
+	font-family: 'ComicSansMS', Arial;
+    font-size: 25px;
+    color: #fff;
+	font-weight: normal;
+}
+.aboutTxt p span{
+    color: #fff;
+}
+.downloadCV{
+	float: left;
+    width: 100%;
+    height: 100%;
+}
+.downloadCV p{
+	text-align: left;
+    font-family: 'ComicSansMS', Arial;
+    font-size: 20px;
+    color: #fff;
+    font-weight: normal;
+	margin: 20px 5px 0  0;
+	float: left;
+}
+.downloadCV a,.downloadCV a img{
+	float: left;
+}
+.aboutTitle,.aboutTitleHolder{
+	float: none;
+}
+.aboutTitleHolder{
+	float: none;
+	display: table;
+}
+.aboutTitle{
+	float: none;
+	display: table-cell;
+	vertical-align: middle;
+	margin: 0px auto;
+	width: 295px;
+	-webkit-animation-duration: 3s;
+	-moz-animation-duration: 3s;
+	-o-animation-duration: 3s;
+	animation-duration: 3s;
+}
+.aboutTitle img{
+	float: left;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+.aboutTitle h3{
+	font-family: 'neoretrodrawregular', Arial;
+    font-size: 30px;
+    color: #000;
+    font-weight: bold;
+    border-bottom: 3px dotted #fff;
+    padding-bottom: 15px;
+}
+.aboutTitle h3 span{
+	font-family: 'neoretrodrawregular', Arial;
+    font-size: 55px;
+    color: #fd3131;
+    font-weight: bold;
+}
+/* About Page Ends Here */
+
+/* Skill Page Starts Here */
+.skillPage{
+	height: 100%;
+	width: 100%;
+    float: left;
+    display: table;
+}
+.skillDetails{
+	float: left;
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+	-webkit-animation-duration: 5s;
+	-moz-animation-duration: 5s;
+	-o-animation-duration: 5s;
+	animation-duration: 5s;
+}
+.skillIconHolder{
+	float: none;
+	width: auto;
+	height: auto;
+	margin-bottom: 20px;
+	display: table;
+}
+.skillIconInner{
+	float: none;
+	height: auto;
+	display: table-cell;
+	vertical-align: middle;
+	margin: 0px auto;
+}
+.skillIconInner .skillImgHolder{
+	height: 100px;
+	float: left;
+	margin-left: 20px;
+	width: 100px;
+}
+.skillIconInner .skillImgHolder:first-child{
+	margin-left: 0px;
+}
+.skillDetails p{
+	text-align: center;
+	font-family: 'architects_daughterregular', Arial;
+    font-size: 20px;
+    color: #fff;
+	font-weight: normal;
+}
+.singleSkill{
+	float: left;
+}
+.singleSkill p{
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-family: 'architects_daughterregular', Arial;
+    font-size: 15px;
+    color: #000;
+	font-weight: bold;
+    margin: 18px 0 0 0;
+}
+.singleSkillInner{
+    float: none;
+    background-color: rgba(255,255,255,0.6);
+    display: table;
+    margin: 10px auto;
+}
+.singleSkillInner text tspan{
+    font-family: 'architects_daughterregular', Arial;
+    font-size: 12px;
+    color: #000;
+	font-weight: bold;
+    margin-top: 5px;
+}
+.skillTitleHolder{
+	float: none;
+	display: table;
+}
+.skillTitle{
+	float: none;
+	display: table-cell;
+	vertical-align: middle;
+	margin: 0px auto;
+	width: 305px;
+	-webkit-animation-duration: 3s;
+	-moz-animation-duration: 3s;
+	-o-animation-duration: 3s;
+	animation-duration: 3s;
+}
+.skillBars{
+    margin: 30px 0;
+	-webkit-animation-duration: 5s;
+	-moz-animation-duration: 5s;
+	-o-animation-duration: 5s;
+	animation-duration: 5s;
+}
+.skillTitle img{
+	float: left;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+.skillTitle h3{
+	font-family: 'neoretrodrawregular', Arial;
+    font-size: 30px;
+    color: #000;
+    font-weight: bold;
+    border-bottom: 3px dotted #fff;
+    padding-bottom: 15px;
+}
+.skillTitle h3 span{
+	font-family: 'neoretrodrawregular', Arial;
+    font-size: 55px;
+    color: #fd3131;
+    font-weight: bold;
+}
+.skillImageOuter{
+	float: left;
+	width: 100%;
+	margin-top: 30px;
+}
+.gaugeHolder{
+    width: 200px;
+    height: 200px;
+}
+/* Skill Page Ends Here */
+
+/* Work Page Starts Here */
+.workPage{
+	height: 100%;
+	width: 100%;
+	float: left;    
+    display: table;
+    margin-bottom: 50px;
+}
+.workTitleHolder{
+	float: none;
+	display: table;
+}
+.projHolder{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.workTitle{
+	float: none;
+	display: table-cell;
+	vertical-align: middle;
+	margin: 0px auto;
+	width: 365px;
+	-webkit-animation-duration: 3s;
+	-moz-animation-duration: 3s;
+	-o-animation-duration: 3s;
+	animation-duration: 3s;
+}
+.polaroids{
+	float: left;
+	width: 100%;
+	height: auto;
+	-webkit-animation-duration: 5s;
+	-moz-animation-duration: 5s;
+	-o-animation-duration: 5s;
+	animation-duration: 5s;
+}
+.workTitle img{
+	float: left;
+	margin-right: 5px;
+	margin-top: 15px;
+}
+.workTitle h3{
+	font-family: 'neoretrodrawregular', Arial;
+    font-size: 30px;
+    color: #000;
+    font-weight: bold;
+    border-bottom: 3px dotted #fff;
+    padding-bottom: 15px;
+}
+.workTitle h3 span{
+	font-family: 'neoretrodrawregular', Arial;
+    font-size: 55px;
+    color: #fd3131;
+    font-weight: bold;
+}
+/* Font Transition Starts Here */
+.cl-effect-21 a {
+	position: relative;
+	display: inline-block;
+	margin: 5px 25px;
+	outline: none;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+}
+
+.cl-effect-21 a:hover,
+.cl-effect-21 a:focus {
+	outline: none;
+}
+.cl-effect-21 a {
+	color: #237546;
+	font-weight: 700;
+	text-shadow: none;
+	-webkit-transition: color 0.3s;
+	-moz-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+.cl-effect-21 a::before,
+.cl-effect-21 a::after {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: #000;
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	-moz-transition: opacity 0.3s, -moz-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+	-webkit-transform: translateY(-10px);
+	-moz-transform: translateY(-10px);
+	transform: translateY(-10px);
+}
+
+.cl-effect-21 a::before {
+	top: 0;
+	-webkit-transform: translateY(-10px);
+	-moz-transform: translateY(-10px);
+	transform: translateY(-10px);
+}
+
+.cl-effect-21 a::after {
+	bottom: 0;
+	-webkit-transform: translateY(10px);
+	-moz-transform: translateY(10px);
+	transform: translateY(10px);
+}
+
+.cl-effect-21 a:hover,
+.cl-effect-21 a:focus {
+	color: #000;
+}
+
+.cl-effect-21 a:hover::before,
+.cl-effect-21 a:focus::before,
+.cl-effect-21 a:hover::after,
+.cl-effect-21 a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	transform: translateY(0px);
+}
+/* Font Transition Ends Here */
+
+.projDiv a img{
+	width: 100%;
+}
+.projDivInner {
+    width: 250px;
+    height: 200px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.projDiv{
+	/* -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out; */
+}
+.projDiv:hover{
+	transform: translateY(-15px);
+} 
+.box {
+	position: relative;
+	cursor: pointer;
+	color: #2c3e50;
+	-webkit-transition: background 0.4s 0.5s;
+	transition: background 0.4s 0.5s;
+	background: rgba(255,255,255,0.6);
+}
+
+.box:hover {
+	background: rgba(255,255,255,1);
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+.box svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.box svg line {
+	stroke-width: 3;
+	stroke: #ecf0f1;
+	fill: none;
+	-webkit-transition: all .8s ease-in-out;
+	transition: all .8s ease-in-out;
+}
+
+.box:hover svg line {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+.box svg line.top,
+.box svg line.bottom {
+	stroke-dasharray: 330 240; 
+}
+
+.box svg line.left,
+.box svg line.right {
+	stroke-dasharray: 490 400;
+}
+
+.box:hover svg line.top {
+	-webkit-transform: translateX(-600px);
+	transform: translateX(-600px);
+}
+
+.box:hover svg line.bottom {
+	-webkit-transform: translateX(600px);
+	transform: translateX(600px);
+}
+
+.box:hover svg line.left {
+	-webkit-transform: translateY(920px);
+	transform: translateY(920px);
+}
+
+.box:hover svg line.right {
+	-webkit-transform: translateY(-920px);
+	transform: translateY(-920px);
+}
+
+/* Alternatives */
+
+/* Color */
+.box svg line {
+	stroke-width: 10;
+}
+
+.box:hover svg line {
+	stroke: #fe6f83;
+}
+.projImgOuter{
+	width: 100%;
+	height: 160px;
+	display: table;
+	float: none;
+}
+.projImg{
+	display: table-cell;
+	float: none;
+	vertical-align: middle;
+}
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+.box:hover .projImg a img{
+	-webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+}
+/* Work Page Ends Here */
+
+
+
+/* Contact Page Start Here */
+.contactPage{
+	height: 100%;
+	width: 100%;
+	float: left;
+    display: table;
+}
+.contactPageInner{
+    float: left;
+    margin-bottom: 70px;
+}
+.contactTitleHolder{
+	float: none;
+	display: table;
+}
+.contactTitle{
+	float: none;
+	display: table-cell;
+	vertical-align: middle;
+	margin: 0px auto;
+	width: 365px;
+	-webkit-animation-duration: 3s;
+	-moz-animation-duration: 3s;
+	-o-animation-duration: 3s;
+	animation-duration: 3s;
+}
+.contactTitle img{
+	float: left;
+	margin-right: 5px;
+	margin-top: 15px;
+}
+.contactTitle h3{
+	font-family: 'neoretrodrawregular', Arial;
+    font-size: 30px;
+    color: #000;
+    font-weight: bold;
+    border-bottom: 3px dotted #fff;
+    padding-bottom: 15px;
+}
+.contactTitle h3 span{
+	font-family: 'neoretrodrawregular', Arial;
+    font-size: 55px;
+    color: #fd3131;
+    font-weight: bold;
+}
+.contactRight .reachOut{
+	height: auto;
+	width: 100%;
+	float: left;
+	-webkit-animation-duration: 5s;
+	-moz-animation-duration: 5s;
+	-o-animation-duration: 5s;
+	animation-duration: 5s;
+}
+.reachOut .mapImg{
+	margin: 0px auto;
+	display: table;
+}
+.reachOut h3{
+	text-align: center;
+	font-family: 'architects_daughterregular', Arial;
+    font-size: 25px;
+    color: #000;
+	font-weight: normal;
+	line-height: 60px;
+}
+.reachOut h3 span.hereTxt{
+	text-align: center;
+	font-family: 'architects_daughterregular', Arial;
+    font-size: 55px;
+    color: #fff;
+	font-weight: bold;
+}
+.reachOut h3 span.reachIcon{
+    font-size: 55px;
+    color: #fd3131;
+	font-weight: bold;
+}
+.gmapHolder{
+	width: 100%;
+	height: 300px;
+	float: left;
+	border-radius: 5px;
+	margin-top: 20px;
+	-webkit-animation-duration: 5s;
+	-moz-animation-duration: 5s;
+	-o-animation-duration: 5s;
+	animation-duration: 5s;
+}
+.contactLeft{
+	-webkit-animation-duration: 5s;
+	-moz-animation-duration: 5s;
+	-o-animation-duration: 5s;
+	animation-duration: 5s;	
+}
+.contactDetails{
+	float: left;
+    margin: 50px 0;
+    position: relative;
+    padding: 105px 20px 0 20px;
+}
+.contactGirl {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.contactImage{
+	float: left;
+	margin-bottom: 30px;
+	width: 100%;
+	border-top: 5px solid #000;
+	background-image: url('../images/contactus-banner.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 150px;
+}
+.contactImage h3{
+	float: left;
+    color: #000;
+    font-family: 'neoretrodrawregular', Arial;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 105px 0 0;
+}
+.contactImage h3 span{
+	font-family: 'neoretrodrawregular', Arial;
+    font-size: 55px;
+    color: #3072c9;
+    font-weight: bold;
+}
+.detailHolder{
+	float: left;
+	width: 100%;
+	min-height: 70px;
+    background-color: rgba(255,255,255,0.5);
+    padding: 10px 20px;
+}
+.detailHolder .contactIcons{
+	float: left;
+}
+.detailHolder .contactTxt{
+	margin: 0 0 0 20px;
+    float: left;
+	font-family: 'architects_daughterregular', Arial;
+    font-size: 20px;
+    color: #000;
+	font-weight: normal;
+}
+.detailHolder .contactTxt a{
+	margin: 0;
+    float: left;
+	font-family: 'architects_daughterregular', Arial;
+    font-size: 20px;
+    color: #000;
+	font-weight: normal;
+}
+.detailHolder .contactTxt a span{
+	font-family: 'architects_daughterregular', Arial;
+    font-size: 35px;
+    color: #fff;
+	font-weight: normal;
+}
+.detailHolder .contactTxt .mailOuter{
+	font-family: 'architects_daughterregular', Arial;
+    font-size: 35px;
+    color: #fd3131;
+	font-weight: normal;
+}
+.contactSingleTxt{
+	margin-top: 20px!important;
+}
+.photoSection{
+    background-image: url(../images/Coming-Soon.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 200px;
+    margin-top: 40px;
+	-webkit-animation-duration: 5s;
+	-moz-animation-duration: 5s;
+	-o-animation-duration: 5s;
+	animation-duration: 5s;
+}
+.photoSection h5{
+    float: left;
+    width: 100%;
+    font-family: 'admiration_pains_regular', Arial;
+    font-size: 35px;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+    margin: 80px 0 0 0;
+    line-height: normal;
+    letter-spacing: 0.2em;
+}
+.photoSection img{
+    height: 370px;
+}
+.photoSection p {
+    margin: 0;
+    float: left;
+    font-family: 'architects_daughterregular', Arial;
+    font-size: 20px;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+    width: 100%;
+}
+/* Contact Page Ends Here */
+
+
+/* Footer Section Starts Here */
+.footerOuter{
+	float: left;
+	width: 100%;
+	min-height: 150px;
+	height: auto;
+	background-color: #333;
+	background-image: url('../images/line.png');
+	background-repeat: no-repeat;
+	background-position: top left;
+	padding-bottom: 10px;
+}
+.fooInner{
+	float: left;
+	width: 100%;
+	margin-top: 20px;
+}
+.fooInner p{
+	float: left;
+    width: 100%;
+    font-family: 'architects_daughterregular', Arial;
+    font-size: 12px;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+.fooLast{
+	float: left;
+}
+.fooLast p.bestView{
+	float: left;
+    font-family: 'architects_daughterregular', Arial;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+    margin: 10px 5px 0 0;
+}
+.fooLast .fooIcons{
+	float: left;
+	margin-left: 5px;
+}
+/* Footer Section Ends Here */
+
+
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000px;
+}
+/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+	transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+}
+
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+	-ms-transform: rotateY(0deg);
+	-webkit-transform: rotateY(0deg);
+	-moz-transform: rotateY(0deg);
+	-o-transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+}
+
+.vertical.flip-container {
+	position: relative;
+}
+
+.vertical .back {
+	transform: rotateX(180deg);
+	-ms-transform: rotateX(180deg);
+	-webkit-transform: rotateX(180deg);
+	-moz-transform: rotateX(180deg);
+	-o-transform: rotateX(180deg);
+}
+
+.vertical.flip-container .flipper {
+	transform-origin: 100% 213.5px; /* half of height */
+}
+
+.vertical.flip-container:hover .flipper {
+	transform: rotateX(-180deg);
+	-ms-transform: rotateX(-180deg);
+	-webkit-transform: rotateX(-180deg);
+	-moz-transform: rotateX(-180deg);
+	-o-transform: rotateX(-180deg);
+}
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  transition: 1s opacity;
+}

@@ -1,0 +1,8 @@
+@media screen and (min-width: 1024px) and (max-width: 1200px) { 
+	ul.polaroids a {
+		margin: 0 0 27px 24px;
+	}
+}
+@media screen and (min-width: 1201px){ 
+	
+}
